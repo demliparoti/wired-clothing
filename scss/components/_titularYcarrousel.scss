@@ -1,0 +1,35 @@
+/* Titular */
+.caja2 {
+    margin-top: 5px;
+
+    .titularCaja2 {
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+        font-style: bold;
+        color: $celeste;
+        text-align: center;
+    }
+
+}
+
+/* Carrousel */
+
+.carrouselImg {
+
+        .filaContenedor {
+
+            .columnaContenedor {
+
+                .titularCarrousel {
+                    font-family: 'Mukta', sans-serif;
+                    font-size: 27px;
+                    font-weight: bold;
+
+                    .parrafoCarrousel {
+                       @extend %texto;
+                    }
+                }
+            }
+
+        }
+}

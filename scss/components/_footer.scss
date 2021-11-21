@@ -1,0 +1,31 @@
+/* Footer */
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $celeste;
+    color: $blanco;
+
+        .listaRrss {
+            margin-top: 10px;
+            list-style: none;
+
+            .listaRrssElemento {
+                margin-top: 3px;
+
+                a {
+                    text-decoration: none;
+                    color: $blanco;
+                }
+            }
+        }
+
+        .menuFooter {
+            margin-right: 10px;
+
+            li {
+                list-style: none;
+                margin-top: 7px;
+            }
+        }
+}

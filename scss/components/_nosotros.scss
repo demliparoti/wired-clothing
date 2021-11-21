@@ -1,0 +1,21 @@
+.nosotros {
+    
+
+    .titularNosotros {
+        text-decoration: none;
+    font-family: 'Mukta', sans-serif;  
+    font-weight: bolder;
+    color: $celeste;
+
+        .seccionNosotros {
+            background-color: $celeste;
+
+            div {
+
+            .textoNosotros {
+                @extend %texto;
+            }
+}
+        }
+    }
+}

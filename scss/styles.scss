@@ -1,0 +1,14 @@
+@import './base/colors';
+@import './base/extends';
+@import '../scss/components/header';
+@import './components/titularYcarrousel';
+@import './components/formulario';
+@import './components/nosotros';
+@import '../scss/components/footer';
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
