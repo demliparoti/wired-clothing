@@ -1,0 +1,42 @@
+.encabezado2 {
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    color: $celeste;
+    text-align: center;
+}
+
+.parrafoDisenos {
+    .textoDisenos {
+        margin: 20px auto;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        color: $negro ;
+        width: 600px;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+
+        .botonContacto {
+            padding: 10px;
+            font-size: 30px;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            font-style: bold;
+            color: $blanco;
+            text-align: center;
+            background-color: $celeste;
+            border-radius: 7px;
+
+            &:hover {
+                padding: 5px;
+                transform: scale(1.2);
+                transition: all 30ms;
+            }
+        }
+     }
+        }
