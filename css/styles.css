@@ -84,31 +84,32 @@ header .caja1 .listaMenu ul li a:hover {
   transition: all 30ms;
 }
 
-.formularioContainer {
-  width: 500px;
-  margin: 20px auto;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  padding: 0 auto;
-}
-.formularioContainer .titularFormulario {
+#formularioAncla .titularFormulario {
+  width: 100%;
   font-size: 40px;
   font-family: "Roboto", sans-serif;
   font-style: bold;
   color: cornflowerblue;
   text-align: center;
+  margin: 30px;
 }
-.formularioContainer .titularFormulario .formulario .elementoFormulario {
+#formularioAncla .formulario {
   width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#formularioAncla .formulario .elementoFormulario {
+  width: 300px;
   border-radius: 7px;
   border: 0.5px solid black;
   padding: 9px;
-  margin: auto;
-  margin-top: 9px;
+  margin: 5px auto;
 }
-.formularioContainer .titularFormulario .formulario .boton {
-  margin-top: 5px;
-  width: 100px;
+#formularioAncla .formulario .boton {
+  margin: 9px auto;
   padding: 9px;
   border-radius: 7px;
   border-style: 0.7px solid cornflowerblue;
@@ -117,6 +118,7 @@ header .caja1 .listaMenu ul li a:hover {
   font-family: "Mukta", sans-serif;
   color: white;
   font-weight: bolder;
+  text-align: center;
 }
 
 .nosotros .titularNosotros {

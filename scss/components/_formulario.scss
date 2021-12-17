@@ -1,37 +1,34 @@
-.formularioContainer {
-
-    width: 500px;
-    margin: 20px auto;
-    padding: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+#formularioAncla {
 
     .titularFormulario {
+        width: 100%;
         font-size: 40px;
         font-family: 'Roboto', sans-serif;
         font-style: bold;
         color: cornflowerblue;
         text-align: center;
+        margin: 30px;
     }
 
     .formulario {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+       width: 100%;
+       margin: 0 auto;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+           
 
         .elementoFormulario {
-            width: 100%;
+            width: 300px;
             border-radius: 7px;
             border: 0.5px solid black;
             padding: 9px;
-            margin: auto;
-            margin-top: 9px;
+            margin: 5px auto;
         }
 
         .boton {
-            margin-top: 5px;
-            width: 100px;
+            margin: 9px auto;
             padding: 9px;
             border-radius: 7px;
             border-style: 0.7px solid cornflowerblue;
@@ -41,7 +38,6 @@
             color: white;
             font-weight: bolder;
             text-align: center;
-
         }
     }
 }
