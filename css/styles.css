@@ -69,7 +69,7 @@ header .caja1 .listaMenu ul li a:hover {
 }
 .parrafoDisenos h2 .botonContacto {
   padding: 10px;
-  font-size: 30px;
+  font-size: 25px;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   font-style: bold;
@@ -81,7 +81,7 @@ header .caja1 .listaMenu ul li a:hover {
 .parrafoDisenos h2 .botonContacto:hover {
   padding: 5px;
   transform: scale(1.2);
-  transition: all 30ms;
+  transition: all 50ms;
 }
 
 #formularioAncla .titularFormulario {
@@ -130,6 +130,15 @@ header .caja1 .listaMenu ul li a:hover {
 .nosotros .titularNosotros .seccionNosotros {
   background-color: cornflowerblue;
 }
+.titularCatalogo {
+  padding-top: 10px;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  color: cornflowerblue;
+  text-align: center;
+}
+
 /* Footer */
 .footerContainer {
   display: flex;
@@ -164,6 +173,10 @@ header .caja1 .listaMenu ul li a:hover {
 .footerContainer .menuFooter li {
   list-style: none;
   margin-top: 7px;
+}
+.footerContainer .menuFooter li a {
+  text-decoration: none;
+  color: white;
 }
 
 * {

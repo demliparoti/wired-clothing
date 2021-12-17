@@ -23,7 +23,7 @@
 
         .botonContacto {
             padding: 10px;
-            font-size: 30px;
+            font-size: 25px;
             text-decoration: none;
             font-family: 'Roboto', sans-serif;
             font-style: bold;
@@ -35,7 +35,7 @@
             &:hover {
                 padding: 5px;
                 transform: scale(1.2);
-                transition: all 30ms;
+                transition: all 50ms;
             }
         }
      }
